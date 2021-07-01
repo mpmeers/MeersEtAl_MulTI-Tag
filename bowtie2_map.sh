@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+## Step 1: Map raw fastq files to genome build ##
+
 set -ue
 
 if [ $# -lt 3 ]
