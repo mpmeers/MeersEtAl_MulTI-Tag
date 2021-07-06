@@ -2,6 +2,8 @@
 
 ## Step 6: Convert filtered CellRanger bed files to bedGraphs and call peaks using SEACR
 
+## NOTE: bedtools and SEACR v1.4 must be in your path
+
 set -ue
 
 if [ $# -lt 4 ]
