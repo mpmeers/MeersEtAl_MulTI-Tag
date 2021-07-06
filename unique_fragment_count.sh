@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-## Step 3: Calculate unique fragments per cell
+## Step 4: Calculate unique fragments per cell
 
 ## NOTE: fastq files have been modified to contain barcodes delimited by "_" in the QNAME field
 ## in the following order: primer i7, primer i5, revcomp adapter i7, adapter i5
