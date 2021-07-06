@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-## Step 2: Convert mapped SAM files to CellRanger-formatted fragment bed files:
+## Step 3: Convert mapped SAM files to CellRanger-formatted fragment bed files:
 
 ## 1) chr
 ## 2) start
