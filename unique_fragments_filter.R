@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 
-## Step 4: Filter cells based on unique fragment counts across all targets
+## Step 5: Filter cells based on unique fragment counts across all targets
 
 ## Collect arguments
 args <- commandArgs(TRUE)
