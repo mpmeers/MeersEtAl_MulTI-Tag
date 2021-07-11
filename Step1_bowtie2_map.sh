@@ -16,8 +16,7 @@ names=`basename -a $list | awk 'BEGIN{FS="_"}; {print $3}' | sort -u`
 module load Bowtie2
 
 
-prefix=`basename -a $list | head -n 1 | cut -c 1-6`  #hg19 only
-#prefix=`basename -a $list | tail -n 1 | cut -c 1-8` #hg19-mm10 hybrid
+prefix=`basename -a $list | head -n 1 | head -c -10`
 suffR1=`basename -a $list | head -n 1 | tail -c 10`
 suffR2=`basename -a $list | sed -n '2p' | tail -c 10`
 path=`dirname $list | head -n 1`
