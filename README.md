@@ -30,4 +30,3 @@ This code is sufficient to generate processed single cell matrices underlying th
 7. **Map single cell fragments onto peaks.** We use bedtools intersect -wao to quantify fragment overlap counts for each peak in each cell.
 
 8. **Perform dimensionality reduction and plot data in UMAP form.** Cell-by-peak matrices are filtered by the number of cells reporting a fragment overlap, transformed by term frequency-inverse document frequency (TF-IDF) and log, subjected to Singular Value Decomposition (SVD) and most variable feature selection, and plotted in UMAP two-dimensional space.
-9. 
