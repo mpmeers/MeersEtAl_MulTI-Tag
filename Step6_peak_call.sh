@@ -23,6 +23,6 @@ fi
 
 module load bedtools
 
-sbatch -n 1 --wrap="bedtools genomecov -bg -i $1 -g $4 | bash SEACR_1.4.sh - $5 norm stringent $1 5"
-sbatch -n 1 --wrap="bedtools genomecov -bg -i $2 -g $4 | bash SEACR_1.4.sh - $5 norm stringent $2 5"
-sbatch -n 1 --wrap="bedtools genomecov -bg -i $3 -g $4 | bash SEACR_1.4.sh - $5 norm stringent $3 5"
+sbatch -n 1 --wrap="bedtools genomecov -bg -i $1 -g $4 | bash SEACR_1.4.sh -b - -c $5 -n norm -m stringent -o $1 -e 5"
+sbatch -n 1 --wrap="bedtools genomecov -bg -i $2 -g $4 | bash SEACR_1.4.sh -b - -c $5 -n norm -m stringent -o $2 -e 5"
+sbatch -n 1 --wrap="bedtools genomecov -bg -i $3 -g $4 | bash SEACR_1.4.sh -b - -c $5 -n norm -m stringent -o $3 -e 5"
