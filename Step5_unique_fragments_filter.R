@@ -63,8 +63,8 @@ if(is.null(argsL$input) | is.null(argsL$output)) {
 }
 
 k27<-rbind(read.table(argsL$k27_H1), read.table(argsL$k27_K5))
-k4<-rbind(read.table(argsL$k27_H1), read.table(argsL$k27_K5))
-k36<-rbind(read.table(argsL$k27_H1), read.table(argsL$k27_K5))
+k4<-rbind(read.table(argsL$k4_H1), read.table(argsL$k4_K5))
+k36<-rbind(read.table(argsL$k36_H1), read.table(argsL$k36_K5))
 colnames(k27)<-c("Fragments", "Barcode")
 colnames(k4)<-c("Fragments", "Barcode")
 colnames(k36)<-c("Fragments", "Barcode")
